@@ -1,5 +1,5 @@
 <h1 align="left">Lista de tarefas</h1>
-<p align="left">A clássica lista de tarefas para administrar seus afazeres.</p>
+<p align="left">A clássica lista de tarefas para administrar seus afazeres</p>
 
 <p align="left"> •
  <a href="#status">Status</a> •
