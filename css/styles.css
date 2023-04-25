@@ -57,36 +57,36 @@ body {
   box-shadow: 3px 3px 5px var(--secondary-color);
 }
 
-.todo__item>div {
+.todo__item > div {
   width: 80%;
 }
 
 .todo__item:hover {
-  transition: all .5s ease;
+  transition: all 0.5s ease;
   background-color: var(--secondary-color);
   color: var(--primary-color);
 }
 
-.todo__item>input[type='text'] {
+.todo__item > input[type='text'] {
   border: none;
   width: 80%;
   font: inherit;
 }
 
-.todo__item>input[type='button'],
-.todo__item>input[type='checkbox'] {
+.todo__item > input[type='button'],
+.todo__item > input[type='checkbox'] {
   width: 30px;
   height: 30px;
   font: inherit;
   cursor: pointer;
 }
 
-.todo__item>input[type='button'] {
+.todo__item > input[type='button'] {
   background-color: rgb(231, 25, 25);
   border: none;
 }
 
-.todo__item>input[type='checkbox']:checked+div {
+.todo__item > input[type='checkbox']:checked + div {
   text-decoration: line-through;
 }
 
@@ -102,7 +102,7 @@ body {
   font: inherit;
 }
 
-.todo__new-item>input {
+.todo__new-item > input {
   background-color: #ffffff;
   border: none;
   width: 80%;
@@ -110,13 +110,12 @@ body {
   font: inherit;
 }
 
-.todo__new-item>input::placeholder {
+.todo__new-item > input::placeholder {
   font-style: italic;
   font-weight: normal;
 }
 
 @media (max-width: 650px) {
-
   .todo {
     display: flex;
     width: 85vw;
@@ -130,8 +129,7 @@ body {
     font-size: 2.75rem;
   }
 
-  .todo__item>div {
+  .todo__item > div {
     width: 70%;
   }
-
 }
